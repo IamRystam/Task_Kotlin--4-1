@@ -8,7 +8,7 @@ class WallServiceTest {
     @Test
     fun addIdNotNull() {
         val service = WallService()
-        val id1: Long = 0
+        val id1: Long = 100
         val post = Post(
             id = 0,
             ownerId = 12366,
